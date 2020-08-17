@@ -1,10 +1,10 @@
 class Triangle
   # write code here
-  def initialize(attributes)
-    attributes.each do |key, value|
-      self.class.attr_accessor(key)
-      self.send(("#{key}="), value)
-    end
+  attr_reader :a, :b, :c
+  def initialize(a, b, c)
+    @a = a
+    @b = b
+    @c = c
   end
 
   def validate_triangle
