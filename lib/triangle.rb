@@ -6,4 +6,5 @@ class Triangle
       self.send(("#{key}="), value)
     end
   end
+
 end
