@@ -7,4 +7,7 @@ class Triangle
     end
   end
 
+  def type
+  end
+
 end
